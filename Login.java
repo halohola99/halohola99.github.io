@@ -87,14 +87,14 @@ public class Login extends javax.swing.JDialog {
         jLabel6.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel6.setText("Vui lòng đăng nhập để sử dụng dịch vụ");
 
-        btnLogin.setBackground(new java.awt.Color(0, 0, 0));
+        btnLogin.setBackground(new java.awt.Color(255, 255, 255));
         btnLogin.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         btnLogin.setText("Đăng nhập");
 
         jLabel7.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel7.setText("Bạn chưa có tài khoản?");
 
-        btnRegister.setBackground(new java.awt.Color(0, 0, 0));
+        btnRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnRegister.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         btnRegister.setText("Đăng ký ngay");
 

@@ -66,7 +66,7 @@ public class RegisterUser extends javax.swing.JDialog {
         jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
         jLabel6.setText("Xác nhận mật khẩu:");
 
-        btnRegister.setBackground(new java.awt.Color(0, 0, 0));
+        btnRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnRegister.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         btnRegister.setText("Đăng ký");
 

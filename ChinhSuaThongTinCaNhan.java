@@ -9,12 +9,12 @@ package com.softech.qlvaccine.ui;
  *
  * @author leduc
  */
-public class EditUserInformation extends javax.swing.JPanel {
+public class ChinhSuaThongTinCaNhan extends javax.swing.JPanel {
 
     /**
      * Creates new form StudentManagementPanel
      */
-    public EditUserInformation() {
+    public ChinhSuaThongTinCaNhan() {
         initComponents();
     }
 
@@ -56,7 +56,9 @@ public class EditUserInformation extends javax.swing.JPanel {
         btnSave = new javax.swing.JButton();
         jSeparator2 = new javax.swing.JSeparator();
 
-        jPanel1.setBackground(new java.awt.Color(153, 255, 102));
+        setBackground(new java.awt.Color(204, 255, 204));
+
+        jPanel1.setBackground(new java.awt.Color(255, 102, 51));
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/softech/appqlsv/icons/user32.png"))); // NOI18N
@@ -78,6 +80,8 @@ public class EditUserInformation extends javax.swing.JPanel {
                 .addComponent(jLabel2)
                 .addContainerGap(30, Short.MAX_VALUE))
         );
+
+        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
 
         jlbAvatar.setBackground(new java.awt.Color(0, 0, 0));
         jlbAvatar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -153,11 +157,11 @@ public class EditUserInformation extends javax.swing.JPanel {
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setText("Địa Chỉ:");
 
-        btnCancel.setBackground(new java.awt.Color(0, 0, 0));
+        btnCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnCancel.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         btnCancel.setText("Huỷ bỏ");
 
-        btnSave.setBackground(new java.awt.Color(0, 0, 0));
+        btnSave.setBackground(new java.awt.Color(255, 255, 255));
         btnSave.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         btnSave.setText("Lưu");
 
@@ -174,37 +178,36 @@ public class EditUserInformation extends javax.swing.JPanel {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jSeparator1, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel4)
-                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jLabel6)
-                                        .addComponent(jLabel3)
-                                        .addComponent(jLabel7))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jScrollPane1)
-                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addComponent(txtCMND, javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(txtName, javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(txtDateOfBirth, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGap(32, 32, 32)
-                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(jLabel9)
-                                                .addComponent(jLabel5)
-                                                .addComponent(jLabel10))
-                                            .addGap(18, 18, 18)
-                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(txtBHYT, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                                    .addComponent(rdbMale)
-                                                    .addGap(18, 18, 18)
-                                                    .addComponent(rdbFemale))
-                                                .addComponent(txtPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGap(0, 0, Short.MAX_VALUE))
-                                        .addComponent(txtEmail)))
-                                .addComponent(jLabel11)))
+                            .addComponent(jLabel4)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel6)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jLabel7))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane1)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(txtCMND, javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtName, javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtDateOfBirth, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(32, 32, 32)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel9)
+                                            .addComponent(jLabel5)
+                                            .addComponent(jLabel10))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtBHYT, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addComponent(rdbMale)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(rdbFemale))
+                                            .addComponent(txtPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(txtEmail)))
+                            .addComponent(jLabel11))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
